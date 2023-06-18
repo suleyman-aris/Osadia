@@ -1,146 +1,129 @@
 # **Takım İsmi**
 
-Takım Flutter 52
+Team Unity 51
 
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
-- Muhammed Mustafa Aksoy: Scrum Master / Product Owner / Developer
-- Sümeyye Aydoğan: Developer
-- Yunus Emre Gürel: Developer
-- Zeynep Nur Meşe: Aktif Olmayan Üye
+- Agah Cansu : Scrum Master / Developer
+- Aysu Çoban : Developer / 3D Artist
+- Dilara Sönmez : Developer
+- Oğuz Tanıl : Developer / Product Owner
+- Süleyman Ariş : Developer
 
 ## Ürün İsmi
 
---Scrap App--
+--Osadia--
 
 ## Product Backlog URL
 
-[Flutter Team 52 Miro Backlog Board](https://miro.com/app/board/uXjVO4kRs2w=/)
+- Not : Asana'nın paylaşım özelliğinin kısıtlı olması ve çalışmama ihtimaline karşın backlog ve user stories'in olduğu bir ekran fotoğrafı da paylaşılmıştır. 
+[Unity Team 51 Asana](https://app.asana.com/0/1204793570183217/board)
 
 ## Ürün Açıklaması
 
-Scrap App, daire sakinleri tarafından biriktirilmiş apartman ve sitelere ait kıymetli geri dönüşüm atıklarının, geri dönüştürülebilir atık toplayan firmalar tarafından toplanmasını kolaylaştırır ve apartman yönetimlerinin bir gelir kalemi olarak geri dönüşüm ödemesi almalarını sağlar. Ayrıca hurda ilanı verilebilen bu uygulamada kullanıcılar biriktirdikleri, bakır, demir, çelik, alüminyum, kağıt, cam vb hurdaların satışını ilanlar ile yapabilir. Scrap App, geri dönüştürülebilir atıkların kıymetinine önem verir, apartman ve site gibi, insanların blok halde yaşadığı mekanlarda, onların geri dönüşüm atıklarını topluca biriktirmelerini teşvik eder ve kolaylaştırır. Scrap App kağıt, metal, plastik cam vb ürünlerin geri dönüştürülmesi halinde, insanların kendisi, çevresi ve ülkesi için maddi gelir ve Dünya doğası için sürekli fayda sağlayabileceğini savunur ve geri dönüşüm sayesinde yeniden üretim ve madencilik faaliyetlerinin azaltılabileceğini ve böylece yeniden üretim kaynaklı doğaya olan zararın azaltılması gerektiği fikrini destekler ve yeniden kazanımı hedefler.
+Osadia kötü niyetli Abusu Corp.'un işgal ettiği, küçük nüfuslu bir adayı kurtarmaya çalıştığımız bir FPS aksiyon/macera oyunu. Abusu Corp.'un adanın kaynaklarını sömürdüğü, tam kontrolde olduğu bir durumda, adanın yerlisi olup madenlerinde zorla çalıştırılan, özgürlük tutkunu bir karakteri kontrol ediyoruz. Madenden kaçmaya çalışarak başladığımız kurtuluş mücadelesi, adanın merkezinde bulunan şirket ofisindeki şirket sahibini alt ettiğimizde bitiyor. Bu mücadelede her başarısız denememizde madene geri tıkıldığımız ve bu sırada topladığımız Arcadium'ları -adanın ana madeni kaynağı- madenin içerisinde bize yardım eden başka bir yerlinin yardımları ile daha etkili saldırı ve savunmaya sahip donanımlara dönüştürüyoruz ve giderek güçleniyoruz. 
 
 
-- **Uygulama birincil fonksiyonu**: Apartman/site sakinlerinin geri dönüşebilir kıymetli atıkları apartman hizmetlisi tarafından düzenli olarak toplanarak, akıllı geri dönüşüm kutusunda biriktirilir, toplayıcı firma biriken atıklara ilişkin kutu doluluk oranını uygulama üzerinden görür ve satın alma teklifini apartman yönetimine uygulama ile bildirir, apartman yönetiminin teklif onayından sonra, atık satın alma işlemi gerçekleşir.
-
-- **Uygulama ikincil fonksiyonu**: Kullanıcı elindeki geri dönüşebilir kıymetli maddeler için teklif almak üzere Scrap App'e girer ve ilan verir, toplayıcı firma, kullanıcının ilanına ilişkin ağırlık ve madde türü gibi bilgileri kullanıcının ilanında görür ve satın alma teklifini kullanıcıya bildirir, kullanıcının teklif onayından sonra, hurda satın alma işlemi gerçekleşir.
+- **Ana Oynayış Döngüsü**: İlerle -> Düşmanları Yen -> Arcadium Topla -> Mümkün olduğunca ilerle -> Yenildiğinde topladığın Arcadiumlar ile güçlen -> Tekrar dene Madenden ofise olan yolculuk ilk seferde geçilemeyecek bir türden. Her denememizde topladığımız Arcadiumlarla kendimizi geliştirip bir sonraki denememizde daha ileri gitmeye çalışıyoruz. Son boss'u alt edene kadar. 
+- **Diğer Oynayış Döngüleri**: Düşmanları yen -> Kaynak topla -> Tekrar et. Oyunumuz yolune çıkan herşeyi ortadan kaldırarak ilerlemeyi ödüllendiriyor. Karakterini güçlendir -> Daha çok düşman alt et -> Daha fazla kaynak kazan -> Tekrar et. 
 
 ## Ürün Özellikleri
-
-- Doluluk oranı %75'in üzerinde olan apartman akıllı atık kutularının kutu doluluk oranının geri dönüşüm atık toplayıcılarına bildirilmesi.
-- Doluluk oranı %75'in üzerinde olan apartman akıllı atık kutularındaki geri dönüşüm maddelerinin satın alınmasına ilişkin, toplayıcı firmalar tarafından satın alma teklifini apartman yönetimlerine sunabilmesi ve yönetici tarafından teklifin kabul edilmesi.
-- Apartmandan bağımsız olarak biriktirilmiş bireysel geri dönüşüm maddelerinin satın alımı için toplayıcı firmalardan teklif alma ve toplayıcı çağırma hizmeti.
-- Kullanıcı, apartman yönetimi, atık toplayıcı firma ve uygulama şirketi için geliştirilmiş kullanıcı rolleri, özellikleri ve ekranları.
-
+- Klasik FPS aksiyon deneyiminin rogue-lite özelliklerle harmanlandığı, farklı oynayış tarzlarına yatkın bir oyun.
+- Göz alıcı HD grafikler.
+- 3 ayrı seviye içerisinde 10 düşman ve 1 boss.
+- Oyuncunun oynayış stiline ve verdiği kararlara göre özelleşen ana karakter ve oyun ortamı.
+- 25 farklı güçlendirmenin bulunduğu bir yetenek ağacı.
+- Rogue-lite özellikler uygulayarak arttırılmış, diğer aksiyon/macera oyunlarına kıyasla daha uzun oynayış süresi...
+- ...
 ## Hedef Kitle
 
-- Çevreci gönüllüler
-- Apartman yöneticileri
-- Apartman sakinleri
-- Bina yönetim şirketleri 
-- Geri dönüşüm merkezleri
-- Geri dönüşüm atık toplayıcıları
+- 13 yaş üzeri aksiyon türü oyunlar seven oyuncular.
 
 ## Juriye Not
 
-İlan formu veritabanına başarılı şekilde veri göndermesine rağmen, tecrübe yetersizliği ve zaman eksikliği sebebiyle ilanlar listesi ve teklif formları veritabanıyla ilişkilendirilememiştir.
+- null
 
 
 ---
 
 # Sprint 1
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 puan
 
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: 300 puanlık bir backlog oluşturuldu ve 3 sprint'e sprint başı 100 puan denk gelecek şekilde bir vizyon oluşturuldu.
 
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Daily Scrum**: Günlük Scrumların mümkün olduğunda Discord üzerinden sesli sohbet, olmadığı durumlarda mesaj aracılığı ile yapılmasına karar verilmiştir. Örnekleri ektedir.
+Ek: ![Screenshot 1](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/discordScrum1.png)
+    ![Screenshot 2](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/discordScrum2.png)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/Bootcamp2022Example/main/ProjectManagement/Sprint1Documents/backlog1.png) 
+![Backlog 1](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/SprintBoard1.png) 
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint1Documents/product1.png)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint1Documents/product2.png)
-  ![Screenshot 3](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint1Documents/product4.gif)
+  ![Video 1](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/ürün1.mp4)
+  ![Screenshot 2](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/ürün2.png)
+  ![Screenshot 3](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/ürün3.png)
 - **Sprint Review**: 
-Alınan kararlar: Kullanıcı temel sayfaları oluşturulmuş, bazıları kodlanmış, arduino kurulumu ve firebase'e bağlanması sağlanmış, uygulama için veritabanı olarak firebase servisleri aktif edilmiş ve eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Mustafa Aksoy
+Yapılanlar : Takım ruhunun oluşturulması, rollerin paylaşılması, oyunun Game Design Document'inin (GDD) hazırlanması, oyunun esinlendiği diğer başlıkların incelenmesi ve diğer araştırmalar, oyunun temel mekaniklerinin bir kısmının oluşturulması bu sprint içerisinde yapılmıştır. Hedeflenen MVP oluşturulması amacına ve sprint tahmini puanı 100 puana ulaşılamamıştır, diğer sprintlerin backlogları buna göre düzenlenmiştir.
+Sprint Review katılımcıları: Tüm takım.
 
 - **Sprint Retrospective:**
-  - Roller ile ilgili düzenleme yapılmış, scrum master değişmiştir.
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
-  - Takım üyelerinin gelecek sprintlerde aktif olması gerektiğine vurgu yapılmıştır.
+  - Takımın proje dışındaki hayatlarındaki durumlar (finaller, diğer projeler vs.) hedeflenen puana ulaşılamamıştır. İş dağılımı düzenlenmiştir.
+  - Proje yönetimi ve zaman yönetimi konusundaki eksikliklerin varlığı ortaya konmuştur. Görevler için daha net deadline'lar ve kabul kriterlerinin belirlenmesi çözüm olarak kabul edilmiştir.
+  - Toplantılarda ve takım içi iletişimde katılımın az ve toplantı sürelerinin uzun olduğu görülmüştür. Toplantılarda time-blocking uygulanması ve toplantı sonlarında küçük bir eğlence etkinliği yapılması (ör: günün fun fact'i , Discord parti oyunları vs.) çözüm olarak kabul edilmiştir.
+  - Çalışma verimliliğinin idealden biraz uzak olduğu gözlemlenmiştir. Daha işbirlikçi ve destekleyici bir çalışma metodu kullanımı çözüm olarak kabul edilmiştir.
  
-
-
 ---
 
 ## Product Backlog URL
 
-[Flutter Team 52 Miro Backlog Board](https://miro.com/app/board/uXjVO4kRs2w=/)
+- Not : Asana kullanımında yeni olduğum için link ve ekran fotoğrafı olarak paylaşmaya karar verdim. Biri çalışmaz ise diğeri çalışır diye.
+![Screenshot](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/backlogUserStories.png)
+[Unity Team 51 Asana View](https://app.asana.com/0/1204793570183217/board)
 
 ---
 
 # Sprint 2
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint2Documents/DailyScrumMeetingNotesSprint2.docx?raw=true)
+- **Daily Scrum**: 
 
-- **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint2Documents/2022-05-22%2019_25_30-Window.png) 
+- **Sprint board update**: 
 
-
-- **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint2Documents/1.jpeg)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint2Documents/2.jpeg)
-  ![Screenshot 3](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint2Documents/3.jpeg)
+- **Ürün Durumu**: 
 - **Sprint Review**: 
-Alınan kararlar: Kullanıcı temel sayfaların arayüzleri, algoritmaları kodlanmış, firebase servislerine bağlantıları yapılmış ve eksiklikleri değerlendirilmiştir. 
-Sprint Review katılımcıları: Mustafa Aksoy, Yunus Emre Gürel, Sümeyye Aydoğan 
 
 - **Sprint Retrospective:**
-
-  - Takım üyelerinin gelecek sprintlerde daha fazla aktif olması gerektiğine vurgu yapılmıştır.
-
 
 ---
 
 ## Product Backlog URL
 
-[Flutter Team 52 Miro Backlog Board](https://miro.com/app/board/uXjVO4kRs2w=/)
+[Unity Team 51 Miro Backlog Board](https://miro.com/app/board/uXjVO4kRs2w=/)
 
 ---
 
 # Sprint 3
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: İkinci sprintten kalan 120 puanın da eklenmesiyle bu sprint için toplam puan: 240'tır.
+- **Sprint içinde tamamlanması tahmin edilen puan**: 
+
+- **Daily Scrum**: 
+- **Sprint board update**: 
 
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint3Documents/DailyScrumMeetingNotesSprint3.docx?raw=true)
-
-- **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint3Documents/2022-06-06%2000_19_38-Clipboard.png) 
-
-
-- **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint3Documents/1.png)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint3Documents/2.png)
-  ![Screenshot 3](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint3Documents/3.png)
+- **Ürün Durumu**: 
 
 
 - **Sprint Review**: 
-Alınan kararlar: Kullanıcı temel sayfaların arayüzleri, algoritmaları kodlanmış, firebase servislerine bağlantıları yapılmış ve tamamlanamayan sayfa, algoritma ve servis bağlantıları değerlendirilmiştir. 
-Sprint Review katılımcıları: Mustafa Aksoy, Yunus Emre Gürel, Sümeyye Aydoğan 
+
 
 - **Sprint Retrospective:**
 
-  - Takım üyelerinin gelecek projelerde daha fazla aktif olması gerektiğine vurgu yapılmıştır.
 
 
 ---
