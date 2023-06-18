@@ -21,8 +21,8 @@ public class FPS_Camera_Control : MonoBehaviour
     void Update()
     {
         //mouse input cekimi
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
+        float mouseX = Input.GetAxis("Mouse X") * Time.deltaTime * sensX;
+        float mouseY = Input.GetAxis("Mouse Y") * Time.deltaTime * sensY;
 
         yRotation += mouseX;
         xRotation -= mouseY;

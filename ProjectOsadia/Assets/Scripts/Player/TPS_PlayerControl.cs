@@ -2,7 +2,6 @@ using PlayerControls.Manager;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using PlayerControls.Manager;
 
 
 namespace PlayerControls.TPS
