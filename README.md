@@ -63,7 +63,7 @@ Ek: ![Screenshot 1](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectMan
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Video 1](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/ürün1.mp4)
+  ![Video 1](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/ürün1.gif)
   ![Screenshot 2](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/ürün2.png)
   ![Screenshot 3](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/ürün3.png)
 - **Sprint Review**: 
