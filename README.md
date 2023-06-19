@@ -53,6 +53,8 @@ Osadia kötü niyetli Abusu Corp.'un işgal ettiği, küçük nüfuslu bir aday�
 
 - **Puan tamamlama mantığı**: 300 puanlık bir backlog oluşturuldu ve 3 sprint'e, sprint başı 100 puan denk gelecek şekilde bir vizyon oluşturuldu.
 
+- **Sprint Notları:** User Story'ler ve Backlog Asana'da ayrı kısımlara ayrılmıştır. Product backlog item'lara tıklandığında detayları okunabilir. 
+
 
 - **Daily Scrum**: Günlük Scrumların mümkün olduğunda Discord üzerinden sesli sohbet, olmadığı durumlarda mesaj aracılığı ile yapılmasına karar verilmiştir. Örnekleri ektedir.
 Ek: ![Screenshot 1](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint1Documents/discordScrum1.png)
