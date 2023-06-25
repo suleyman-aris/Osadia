@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Collect : MonoBehaviour
 {
+    //basit collect mantýðý
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log(collision.gameObject);

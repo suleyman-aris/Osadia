@@ -1,6 +1,14 @@
 using UnityEngine;
-public class RunData : MonoBehaviour
+public class RunData
 {
-  //Arcadium burda olacak, aldýðýn toplam kill, puanýn vs. vs. oyuncunun bir run içerisinde
-  //yaptýðý þeyler burda olacak....
+    public Vector3 lastDeathPosition;
+    public float runScore;
+    public float runTime;
+    public int runKillCount;
+    public int runCount;
+    //.
+    //..
+    //...
+
+  //Run içerisinde : aldýðýn toplam kill, puanýn vs. vs. oyuncunun yaptýðý þeyler burda olacak....
 }
