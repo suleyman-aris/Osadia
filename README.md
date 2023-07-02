@@ -90,8 +90,8 @@ Sprint Review katılımcıları: Tüm takım.
 
 # Sprint 2
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 120
-- **Puan tamamlama mantığı**: 300 puanlık bir backlog oluşturuldu ve 3 sprint'e, sprint başı 100 puan denk gelecek şekilde bir vizyon oluşturuldu.
+- **Sprint içinde tamamlanması tahmin edilen puan**: 240
+- **Puan tamamlama mantığı**: Backlog 600 puan olacak şekilde düzenlendi ve 3 sprint'e, sprint başı 200 puan denk gelecek şekilde eldeki vizyon düzenlendi.
 - **Sprint Notu**: Bayram dolayısıyla verimlilik düşüşü tahmin edilen puana ulaşmayı engellemiştir, son sprintin puanı daha yüksek olacaktır.
 
 - **Daily Scrum**: Bayram vakti gelene kadar toplantılara öncelik verilecek şekilde, kalan vakitlerde ise yazı üzerinden günlük scrum yapılmıştır. Bayram vakitlerinde günlük scrumlar biraz aksamıştır. Ekte ekran görüntüleri...
