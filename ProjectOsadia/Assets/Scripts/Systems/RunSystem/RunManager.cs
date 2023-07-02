@@ -39,11 +39,12 @@ public class RunManager : MonoBehaviour
                 OnShowHealth?.Invoke(this, EventArgs.Empty);
             }
 
-            if (GUI.Button(new Rect(Screen.width / 2 - 50, 5, 100, 30), "Run'ý baþlat"))
+           
+        }
+        if (GUI.Button(new Rect(Screen.width / 2 - 50, 5, 100, 30), "Run'ý baþlat"))
             {
                 OnRunning?.Invoke(this, EventArgs.Empty);
             }
-        }
     }
     private void Start()
     {

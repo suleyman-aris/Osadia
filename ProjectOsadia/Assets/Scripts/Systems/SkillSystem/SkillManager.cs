@@ -41,8 +41,8 @@ public class SkillManager : MonoBehaviour
 
     private void SetHealthAmountMax(int healthAmount)
     {
-        //Caný ayarla   
-        healthSystem.Heal(healthAmount);
+        //Caný ayarla
+        healthSystem.SetHealthMax(healthSystem.GetHealthMax() + healthAmount,true);  
     }
 
     private void SetMovementSpeed(float movementSpeed)
