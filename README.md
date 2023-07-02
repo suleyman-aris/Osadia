@@ -90,7 +90,9 @@ Sprint Review katılımcıları: Tüm takım.
 
 # Sprint 2
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 
+- **Sprint içinde tamamlanması tahmin edilen puan**:
+- **Puan tamamlama mantığı**: 300 puanlık bir backlog oluşturuldu ve 3 sprint'e, sprint başı 100 puan denk gelecek şekilde bir vizyon oluşturuldu.
+- **Sprint Notu**: Bayram dolayısıyla verimlilik düşüşü tahmin edilen puana ulaşmayı engellemiştir, son sprintin puanı daha yüksek olacaktır.
 
 - **Daily Scrum**: Bayram vakti gelene kadar toplantılara öncelik verilecek şekilde, kalan vakitlerde ise yazı üzerinden günlük scrum yapılmıştır. Bayram vakitlerinde günlük scrumlar biraz aksamıştır. Ekte ekran görüntüleri...
 - Ek: ![Screenshot 1](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint2Documents/discordScrumS2.1.png)
@@ -98,8 +100,9 @@ Sprint Review katılımcıları: Tüm takım.
 
 - **Sprint board update**: Ekran görüntüleri:
 - ![Screenshot](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint2Documents/AsanaS2.png)
-- **Ürün Durumu**: 
-- **Sprint Review**: Bayram tatilinden dolayı çalışmalarda duraksamalar olmuştur, bu eksiklikler backlogda ve bir sonraki sprint içerisinde ele alınacak/alınmıştır
+- **Ürün Durumu**: Ekran görüntüsü:  ![Screenshot](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint2Documents/oyunDurumuS2.png)
+  
+- **Sprint Review**: Bayram tatilinden dolayı çalışmalarda duraksamalar olmuştur, bu eksiklikler backlogda ve bir sonraki sprint içerisinde ele alınacak/alınmıştır. Yapılanlar arasında temel sistemler, hud, düşman yapay zekasının bir kısmı, haritanın bir kısmı bulunmaktadır. Son sprintte bunların birleşimi bir sahne üzerinden gidilmesi kararı alındı.
 
 - **Sprint Retrospective**:  Retrospektif : Birbirini tetikleyici ve kollabrotif günlük scrum uygulamasına (ekran görüntüsü ve küçük videolar şeklinde paylaşımlar, ben bunu bunu yaptım, bunu bunu yapacağım, işlerim bu kişi ile şu vakite kadar kesişebilir, O kişinin kendi tarafındaki işler nasıl gidiyor?") ve daha kollaboratif çalışmaya yönelik bir işleyişe geçme kararı alındı.
 
@@ -107,7 +110,9 @@ Sprint Review katılımcıları: Tüm takım.
 
 ## Product Backlog URL
 
-[Unity Team 51 Asana]()
+-Not: Ekran fotoğrafı ve link olarak paylaşıldı.
+[Unity Team 51 Asana](https://app.asana.com/0/1204793570183217/board)
+![Screenshot](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint2Documents/backlogimage.png)
 
 ---
 
