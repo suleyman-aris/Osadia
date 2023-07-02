@@ -92,14 +92,16 @@ Sprint Review katılımcıları: Tüm takım.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 
 
-- **Daily Scrum**: 
+- **Daily Scrum**: Bayram vakti gelene kadar toplantılara öncelik verilecek şekilde, kalan vakitlerde ise yazı üzerinden günlük scrum yapılmıştır. Bayram vakitlerinde günlük scrumlar biraz aksamıştır. Ekte ekran görüntüleri...
+- Ek: ![Screenshot 1](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint2Documents/discordScrumS2.1.png)
+- ![Screenshot 2](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint2Documents/discordScrumS2.2.png)
 
-- **Sprint board update**: 
-
+- **Sprint board update**: Ekran görüntüleri:
+- ![Screenshot](https://github.com/oua-takim-u51/Osadia/blob/main/ProjectManagement/Sprint2Documents/AsanaS2.png)
 - **Ürün Durumu**: 
-- **Sprint Review**: 
+- **Sprint Review**: Bayram tatilinden dolayı çalışmalarda duraksamalar olmuştur, bu eksiklikler backlogda ve bir sonraki sprint içerisinde ele alınacak/alınmıştır
 
-- **Sprint Retrospective:**
+- **Sprint Retrospective**:  Retrospektif : Birbirini tetikleyici ve kollabrotif günlük scrum uygulamasına (ekran görüntüsü ve küçük videolar şeklinde paylaşımlar, ben bunu bunu yaptım, bunu bunu yapacağım, işlerim bu kişi ile şu vakite kadar kesişebilir, O kişinin kendi tarafındaki işler nasıl gidiyor?") ve daha kollaboratif çalışmaya yönelik bir işleyişe geçme kararı alındı.
 
 ---
 
