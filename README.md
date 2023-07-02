@@ -90,7 +90,7 @@ Sprint Review katılımcıları: Tüm takım.
 
 # Sprint 2
 
-- **Sprint içinde tamamlanması tahmin edilen puan**:
+- **Sprint içinde tamamlanması tahmin edilen puan**: 120
 - **Puan tamamlama mantığı**: 300 puanlık bir backlog oluşturuldu ve 3 sprint'e, sprint başı 100 puan denk gelecek şekilde bir vizyon oluşturuldu.
 - **Sprint Notu**: Bayram dolayısıyla verimlilik düşüşü tahmin edilen puana ulaşmayı engellemiştir, son sprintin puanı daha yüksek olacaktır.
 
