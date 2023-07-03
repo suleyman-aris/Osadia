@@ -1,29 +1,18 @@
-using System;
 using UnityEngine;
 public class RunEnder : MonoBehaviour
 {
     public static bool isDead;
     [SerializeField]private GameObject player;
-    public Vector3 deathPos;
-    public EventHandler OnRunEnd;
-    
     private void Start()
     {
-        
+        ChangeHealth.OnDeath += Death;
     }
     private void Death()
     {
         isDead = true;
         RunManager.isOnRun = false;
-        
-        player.GetComponent<FPS_MovementScript>().enabled = false; //ragdoll ekleyebiliriz aslýnda
-
-        //log
+        player.GetComponent<FPS_MovementScript>().enabled = false;
         Debug.Log("Öldük " + isDead);
         Debug.Log("Run Bitti " + RunManager.isOnRun);
-        //log
-
-        deathPos = player.transform.position;
-        OnRunEnd.Invoke(this, EventArgs.Empty);
     }
 }

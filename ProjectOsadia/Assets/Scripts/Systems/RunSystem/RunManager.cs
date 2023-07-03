@@ -1,58 +1,54 @@
-using System;
 using UnityEngine;
 
 public class RunManager : MonoBehaviour
 {
     [Header("RUN DATA")]
     public static bool isOnRun;
-    public static event EventHandler OnDamaged;
-    public static event EventHandler OnHealed;
-    public static event EventHandler OnRunning;
-    public static event EventHandler OnShowHealth;
-    RunStarter runStarter;
+    public delegate void isRunning();
+    public static event isRunning OnRunning;
+    public static event isRunning OnDamaged;
+    public static event isRunning OnHealed;
+    public static event isRunning OnShowHealth;
 
-
-    //bu metot ekrandaki tuþlarýn bir kýsmýndan sorumlu, run, can götürme gibi.
-    //Silinebilir ama eventler düzenlenmeden silinmesini tavsiye etmem.
+    //bu metodda baya if var, ama büyük çoðunluðu button çalýþmasý için...
     private void OnGUI()
     {
         if (isOnRun)
         {
-            if (GUI.Button(new Rect(Screen.width / 2 - 50, 65, 100, 30), "Caný Azalt"))
+            if (GUI.Button(new Rect(Screen.width / 2 - 50, 5, 100, 30), "Caný Azalt"))
             {
-                if (!RunEnder.isDead)
+                if (RunManager.OnRunning != null && !RunEnder.isDead)
                 {
-                    OnDamaged?.Invoke(this, EventArgs.Empty);
+                    OnDamaged();
                 }
             }
 
             if (GUI.Button(new Rect(Screen.width / 2 - 50, 35, 100, 30), "Caný Arttýr"))
             {
-                if (!RunEnder.isDead)
+                if (RunManager.OnRunning != null)
                 {
-                    OnHealed?.Invoke(this, EventArgs.Empty); 
+                    OnHealed();
                 }
             }
 
             if (GUI.Button(new Rect(Screen.width / 2 - 50, 95, 100, 30), "Caný Göster"))
             {
-                OnShowHealth?.Invoke(this, EventArgs.Empty);
+                if (RunManager.OnRunning != null)
+                {
+                    OnShowHealth();
+                }
             }
 
-           
-        }
-        if (GUI.Button(new Rect(Screen.width / 2 - 50, 5, 100, 30), "Run'ý baþlat"))
+            if (GUI.Button(new Rect(Screen.width / 2 - 50, 65, 100, 30), "Run'ý baþlat"))
             {
-                OnRunning?.Invoke(this, EventArgs.Empty);
+                if (RunManager.OnRunning != null)
+                {
+                    OnRunning();
+                }
             }
-    }
-    private void Start()
-    {
-        
-    }
 
-    public void HandleRun()
-    {
+        }
 
     }
+       
 }
