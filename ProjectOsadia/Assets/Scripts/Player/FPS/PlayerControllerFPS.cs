@@ -12,6 +12,7 @@ public class PlayerControllerFPS : MonoBehaviour
     [SerializeField, Range(0, 20)] float jumpSpeed = 7.0f;
     [SerializeField, Range(0.5f, 10)] float lookSpeed = 2.0f;
     [SerializeField, Range(10, 120)] float lookXLimit = 90.0f;
+    
     [Space(20)]
     [Header("Advance")]
     [SerializeField] float RunningFOV = 80.0f;
@@ -23,40 +24,40 @@ public class PlayerControllerFPS : MonoBehaviour
     [HideInInspector] public bool CanRunning = true;
 
     [Space(20)]
-    [Header("Climbing")]
-    [SerializeField] bool CanClimbing = true;
+    [Header("WallRunning")]
+    [SerializeField] bool CanWallRunning = true;
     [SerializeField, Range(1, 25)] float Speed = 2f;
-    bool isClimbing = false;
-
-    [Space(20)]
-    [Header("HandsHide")]
-    [SerializeField] bool CanHideDistanceWall = true;
-    [SerializeField, Range(0.1f, 5)] float HideDistance = 1.5f;
-    [SerializeField] int LayerMaskInt = 1;
+    bool isWallRunning = false;
 
     [Space(20)]
     [Header("Input")]
     [SerializeField] KeyCode CrouchKey = KeyCode.LeftControl;
 
-
     [HideInInspector] public UnityEngine.CharacterController characterController;
     [HideInInspector] public Vector3 moveDirection = Vector3.zero;
+    
     bool isCrouch = false;
     float InstallCrouchHeight;
     float rotationX = 0;
+    
     [HideInInspector] public bool isRunning = false;
+    
     Vector3 InstallCameraMovement;
     float InstallFOV;
     Camera cam;
+    
     [HideInInspector] public bool Moving;
     [HideInInspector] public float vertical;
     [HideInInspector] public float horizontal;
     [HideInInspector] public float Lookvertical;
     [HideInInspector] public float Lookhorizontal;
+    
     float RunningValue;
     float installGravity;
     bool WallDistance;
+    
     [HideInInspector] public float WalkingValue;
+    
     void Start()
     {
         characterController = GetComponent<UnityEngine.CharacterController>();
@@ -76,7 +77,7 @@ public class PlayerControllerFPS : MonoBehaviour
         RaycastHit CrouchCheck;
         RaycastHit ObjectCheck;
 
-        if (!characterController.isGrounded && !isClimbing)
+        if (!characterController.isGrounded && !isWallRunning)
         {
             moveDirection.y -= gravity * Time.deltaTime;
         }
@@ -90,7 +91,7 @@ public class PlayerControllerFPS : MonoBehaviour
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * vertical) + (right * horizontal);
 
-        if (Input.GetButton("Jump") && canMove && characterController.isGrounded && !isClimbing)
+        if (Input.GetButton("Jump") && canMove && characterController.isGrounded && !isWallRunning)
         {
             moveDirection.y = jumpSpeed;
         }
@@ -133,36 +134,27 @@ public class PlayerControllerFPS : MonoBehaviour
                 WalkingValue = Mathf.Lerp(WalkingValue, walkingSpeed, 4 * Time.deltaTime);
             }
         }
-
-        if (WallDistance != Physics.Raycast(GetComponentInChildren<Camera>().transform.position, transform.TransformDirection(Vector3.forward), out ObjectCheck, HideDistance, LayerMaskInt) && CanHideDistanceWall)
-        {
-            WallDistance = Physics.Raycast(GetComponentInChildren<Camera>().transform.position, transform.TransformDirection(Vector3.forward), out ObjectCheck, HideDistance, LayerMaskInt);
-        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Ladder" && CanClimbing)
+        if (other.tag == "Wall" && CanWallRunning)
         {
-            CanRunning = false;
-            isClimbing = true;
-            WalkingValue /= 2;
+            //
         }
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Ladder" && CanClimbing)
+        if (other.tag == "Wall" && CanWallRunning)
         {
-            moveDirection = new Vector3(0, Input.GetAxis("Vertical") * Speed * (-Camera.localRotation.x / 1.7f), 0);
+            //
         }
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Ladder" && CanClimbing)
+        if (other.tag == "Wall" && CanWallRunning)
         {
-            CanRunning = true;
-            isClimbing = false;
-            WalkingValue *= 2;
+            //
         }
     }
 
